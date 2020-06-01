@@ -1,6 +1,6 @@
 name: bangla_utilities
 description: Plugin for English to Bangla date-time and number conversion.
-version: 0.0.1
+version: 0.1.1
 homepage: https://prohelika.org
 
 environment:

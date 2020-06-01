@@ -3,7 +3,13 @@
 This plugin provides all necessary functionality to get weekday, day, month, monthName, year and season from current date or from a provided date. It also provides leap-year checker and English to Bangla number converter as well.
 All APIs are provided as static-method of the BanglaUtility class.
 
-[Github](https://github.com/ProhelikaX/bangla_utilities_dart),
+![Example](media/example.png)
+
+
+[Github](https://github.com/ProhelikaX/bangla_utilities_dart) 
+
+[Prohelika](https://prohelika.com)
+
 
 
 ## Getting Started
@@ -12,6 +18,6 @@ All APIs are provided as static-method of the BanglaUtility class.
 
 * Import
 
-* var date = BanglaUtility.getBanglaDate(day: day, month: month, year: year)
+* `var date = BanglaUtility.getBanglaDate(day: day, month: month, year: year)`
 
 
