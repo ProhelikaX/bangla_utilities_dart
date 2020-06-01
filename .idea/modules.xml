@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bangla_utilities.iml" filepath="$PROJECT_DIR$/bangla_utilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/bangla_utilities_android.iml" filepath="$PROJECT_DIR$/android/bangla_utilities_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/bangla_utilities_example_android.iml" filepath="$PROJECT_DIR$/example/android/bangla_utilities_example_android.iml" />
+    </modules>
+  </component>
+</project>
