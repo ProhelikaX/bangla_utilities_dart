@@ -1,3 +1,16 @@
+## 0.2.1
+
+* Added API documentation
+
+
+
+## 0.2.0
+
+* Added support for Web, Linux, MacOS and Windows
+* Improved API 
+
+
+
 ## 0.1.1
 
 * Added API documentations
@@ -8,6 +21,6 @@
 
 ##### initial release:
 
-*  added English to Bangla number converter
-*  added leap year checker
-*  added Bangla weekday, day, month, monthName, year and season
+*  Added English to Bangla number converter
+*  Added leap year checker
+*  Added Bangla weekday, day, month, monthName, year and season

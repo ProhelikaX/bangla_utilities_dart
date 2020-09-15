@@ -1,1 +1,318 @@
-[{"name":"bangla_utilities","qualifiedName":"bangla_utilities","href":"bangla_utilities/bangla_utilities-library.html","type":"library","overriddenDepth":0},{"name":"BanglaUtility","qualifiedName":"bangla_utilities.BanglaUtility","href":"bangla_utilities/BanglaUtility-class.html","type":"class","overriddenDepth":0,"enclosedBy":{"name":"bangla_utilities","type":"library"}},{"name":"operator ==","qualifiedName":"bangla_utilities.BanglaUtility.==","href":"bangla_utilities/BanglaUtility/operator_equals.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"BanglaUtility","qualifiedName":"bangla_utilities.BanglaUtility.BanglaUtility","href":"bangla_utilities/BanglaUtility/BanglaUtility.html","type":"constructor","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"englishToBanglaDigit","qualifiedName":"bangla_utilities.BanglaUtility.englishToBanglaDigit","href":"bangla_utilities/BanglaUtility/englishToBanglaDigit.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"getBanglaDate","qualifiedName":"bangla_utilities.BanglaUtility.getBanglaDate","href":"bangla_utilities/BanglaUtility/getBanglaDate.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"getBanglaDateMonthYearSeason","qualifiedName":"bangla_utilities.BanglaUtility.getBanglaDateMonthYearSeason","href":"bangla_utilities/BanglaUtility/getBanglaDateMonthYearSeason.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"getBanglaDay","qualifiedName":"bangla_utilities.BanglaUtility.getBanglaDay","href":"bangla_utilities/BanglaUtility/getBanglaDay.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"getBanglaMonth","qualifiedName":"bangla_utilities.BanglaUtility.getBanglaMonth","href":"bangla_utilities/BanglaUtility/getBanglaMonth.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"getBanglaMonthName","qualifiedName":"bangla_utilities.BanglaUtility.getBanglaMonthName","href":"bangla_utilities/BanglaUtility/getBanglaMonthName.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"getBanglaSeason","qualifiedName":"bangla_utilities.BanglaUtility.getBanglaSeason","href":"bangla_utilities/BanglaUtility/getBanglaSeason.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"getBanglaWeekday","qualifiedName":"bangla_utilities.BanglaUtility.getBanglaWeekday","href":"bangla_utilities/BanglaUtility/getBanglaWeekday.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"getBanglaYear","qualifiedName":"bangla_utilities.BanglaUtility.getBanglaYear","href":"bangla_utilities/BanglaUtility/getBanglaYear.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"hashCode","qualifiedName":"bangla_utilities.BanglaUtility.hashCode","href":"bangla_utilities/BanglaUtility/hashCode.html","type":"property","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"isLeapYear","qualifiedName":"bangla_utilities.BanglaUtility.isLeapYear","href":"bangla_utilities/BanglaUtility/isLeapYear.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"noSuchMethod","qualifiedName":"bangla_utilities.BanglaUtility.noSuchMethod","href":"bangla_utilities/BanglaUtility/noSuchMethod.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"runtimeType","qualifiedName":"bangla_utilities.BanglaUtility.runtimeType","href":"bangla_utilities/BanglaUtility/runtimeType.html","type":"property","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"toString","qualifiedName":"bangla_utilities.BanglaUtility.toString","href":"bangla_utilities/BanglaUtility/toString.html","type":"method","overriddenDepth":0,"enclosedBy":{"name":"BanglaUtility","type":"class"}},{"name":"kBanglaNumber","qualifiedName":"bangla_utilities.kBanglaNumber","href":"bangla_utilities/kBanglaNumber-constant.html","type":"top-level constant","overriddenDepth":0,"enclosedBy":{"name":"bangla_utilities","type":"library"}},{"name":"kBanglaWeekdays","qualifiedName":"bangla_utilities.kBanglaWeekdays","href":"bangla_utilities/kBanglaWeekdays-constant.html","type":"top-level constant","overriddenDepth":0,"enclosedBy":{"name":"bangla_utilities","type":"library"}},{"name":"kEnglishNumber","qualifiedName":"bangla_utilities.kEnglishNumber","href":"bangla_utilities/kEnglishNumber-constant.html","type":"top-level constant","overriddenDepth":0,"enclosedBy":{"name":"bangla_utilities","type":"library"}},{"name":"kGregEquivalentBanglaMonths","qualifiedName":"bangla_utilities.kGregEquivalentBanglaMonths","href":"bangla_utilities/kGregEquivalentBanglaMonths-constant.html","type":"top-level constant","overriddenDepth":0,"enclosedBy":{"name":"bangla_utilities","type":"library"}},{"name":"kGregEquivalentBanglaSeasons","qualifiedName":"bangla_utilities.kGregEquivalentBanglaSeasons","href":"bangla_utilities/kGregEquivalentBanglaSeasons-constant.html","type":"top-level constant","overriddenDepth":0,"enclosedBy":{"name":"bangla_utilities","type":"library"}},{"name":"kGregEquivalentLastDayOfBanglaMonths","qualifiedName":"bangla_utilities.kGregEquivalentLastDayOfBanglaMonths","href":"bangla_utilities/kGregEquivalentLastDayOfBanglaMonths-constant.html","type":"top-level constant","overriddenDepth":0,"enclosedBy":{"name":"bangla_utilities","type":"library"}},{"name":"kGregEquivalentLeapYearIndexInBanglaMonths","qualifiedName":"bangla_utilities.kGregEquivalentLeapYearIndexInBanglaMonths","href":"bangla_utilities/kGregEquivalentLeapYearIndexInBanglaMonths-constant.html","type":"top-level constant","overriddenDepth":0,"enclosedBy":{"name":"bangla_utilities","type":"library"}},{"name":"kTotalDaysInBanglaMonths","qualifiedName":"bangla_utilities.kTotalDaysInBanglaMonths","href":"bangla_utilities/kTotalDaysInBanglaMonths-constant.html","type":"top-level constant","overriddenDepth":0,"enclosedBy":{"name":"bangla_utilities","type":"library"}}]
+[
+  {
+    "name": "bangla_utilities",
+    "qualifiedName": "bangla_utilities",
+    "href": "bangla_utilities/bangla_utilities-library.html",
+    "type": "library",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities"
+  },
+  {
+    "name": "BanglaUtility",
+    "qualifiedName": "bangla_utilities.BanglaUtility",
+    "href": "bangla_utilities/BanglaUtility-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "bangla_utilities",
+      "type": "library"
+    }
+  },
+  {
+    "name": "BanglaUtility",
+    "qualifiedName": "bangla_utilities.BanglaUtility.BanglaUtility",
+    "href": "bangla_utilities/BanglaUtility/BanglaUtility.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "englishToBanglaDigit",
+    "qualifiedName": "bangla_utilities.BanglaUtility.englishToBanglaDigit",
+    "href": "bangla_utilities/BanglaUtility/englishToBanglaDigit.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getBanglaDate",
+    "qualifiedName": "bangla_utilities.BanglaUtility.getBanglaDate",
+    "href": "bangla_utilities/BanglaUtility/getBanglaDate.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getBanglaDateMonthYearSeason",
+    "qualifiedName": "bangla_utilities.BanglaUtility.getBanglaDateMonthYearSeason",
+    "href": "bangla_utilities/BanglaUtility/getBanglaDateMonthYearSeason.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getBanglaDay",
+    "qualifiedName": "bangla_utilities.BanglaUtility.getBanglaDay",
+    "href": "bangla_utilities/BanglaUtility/getBanglaDay.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getBanglaMonth",
+    "qualifiedName": "bangla_utilities.BanglaUtility.getBanglaMonth",
+    "href": "bangla_utilities/BanglaUtility/getBanglaMonth.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getBanglaMonthName",
+    "qualifiedName": "bangla_utilities.BanglaUtility.getBanglaMonthName",
+    "href": "bangla_utilities/BanglaUtility/getBanglaMonthName.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getBanglaSeason",
+    "qualifiedName": "bangla_utilities.BanglaUtility.getBanglaSeason",
+    "href": "bangla_utilities/BanglaUtility/getBanglaSeason.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getBanglaWeekday",
+    "qualifiedName": "bangla_utilities.BanglaUtility.getBanglaWeekday",
+    "href": "bangla_utilities/BanglaUtility/getBanglaWeekday.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getBanglaYear",
+    "qualifiedName": "bangla_utilities.BanglaUtility.getBanglaYear",
+    "href": "bangla_utilities/BanglaUtility/getBanglaYear.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "isLeapYear",
+    "qualifiedName": "bangla_utilities.BanglaUtility.isLeapYear",
+    "href": "bangla_utilities/BanglaUtility/isLeapYear.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtility",
+      "type": "class"
+    }
+  },
+  {
+    "name": "kBanglaNumber",
+    "qualifiedName": "bangla_utilities.kBanglaNumber",
+    "href": "bangla_utilities/kBanglaNumber-constant.html",
+    "type": "top-level constant",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "bangla_utilities",
+      "type": "library"
+    }
+  },
+  {
+    "name": "kBanglaWeekdays",
+    "qualifiedName": "bangla_utilities.kBanglaWeekdays",
+    "href": "bangla_utilities/kBanglaWeekdays-constant.html",
+    "type": "top-level constant",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "bangla_utilities",
+      "type": "library"
+    }
+  },
+  {
+    "name": "kEnglishNumber",
+    "qualifiedName": "bangla_utilities.kEnglishNumber",
+    "href": "bangla_utilities/kEnglishNumber-constant.html",
+    "type": "top-level constant",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "bangla_utilities",
+      "type": "library"
+    }
+  },
+  {
+    "name": "kGregEquivalentBanglaMonths",
+    "qualifiedName": "bangla_utilities.kGregEquivalentBanglaMonths",
+    "href": "bangla_utilities/kGregEquivalentBanglaMonths-constant.html",
+    "type": "top-level constant",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "bangla_utilities",
+      "type": "library"
+    }
+  },
+  {
+    "name": "kGregEquivalentBanglaSeasons",
+    "qualifiedName": "bangla_utilities.kGregEquivalentBanglaSeasons",
+    "href": "bangla_utilities/kGregEquivalentBanglaSeasons-constant.html",
+    "type": "top-level constant",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "bangla_utilities",
+      "type": "library"
+    }
+  },
+  {
+    "name": "kGregEquivalentLastDayOfBanglaMonths",
+    "qualifiedName": "bangla_utilities.kGregEquivalentLastDayOfBanglaMonths",
+    "href": "bangla_utilities/kGregEquivalentLastDayOfBanglaMonths-constant.html",
+    "type": "top-level constant",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "bangla_utilities",
+      "type": "library"
+    }
+  },
+  {
+    "name": "kGregEquivalentLeapYearIndexInBanglaMonths",
+    "qualifiedName": "bangla_utilities.kGregEquivalentLeapYearIndexInBanglaMonths",
+    "href": "bangla_utilities/kGregEquivalentLeapYearIndexInBanglaMonths-constant.html",
+    "type": "top-level constant",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "bangla_utilities",
+      "type": "library"
+    }
+  },
+  {
+    "name": "kTotalDaysInBanglaMonths",
+    "qualifiedName": "bangla_utilities.kTotalDaysInBanglaMonths",
+    "href": "bangla_utilities/kTotalDaysInBanglaMonths-constant.html",
+    "type": "top-level constant",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "bangla_utilities",
+      "type": "library"
+    }
+  },
+  {
+    "name": "bangla_utilities_web",
+    "qualifiedName": "bangla_utilities_web",
+    "href": "bangla_utilities_web/bangla_utilities_web-library.html",
+    "type": "library",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities"
+  },
+  {
+    "name": "BanglaUtilitiesWeb",
+    "qualifiedName": "bangla_utilities_web.BanglaUtilitiesWeb",
+    "href": "bangla_utilities_web/BanglaUtilitiesWeb-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "bangla_utilities_web",
+      "type": "library"
+    }
+  },
+  {
+    "name": "BanglaUtilitiesWeb",
+    "qualifiedName": "bangla_utilities_web.BanglaUtilitiesWeb.BanglaUtilitiesWeb",
+    "href": "bangla_utilities_web/BanglaUtilitiesWeb/BanglaUtilitiesWeb.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtilitiesWeb",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getPlatformVersion",
+    "qualifiedName": "bangla_utilities_web.BanglaUtilitiesWeb.getPlatformVersion",
+    "href": "bangla_utilities_web/BanglaUtilitiesWeb/getPlatformVersion.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtilitiesWeb",
+      "type": "class"
+    }
+  },
+  {
+    "name": "handleMethodCall",
+    "qualifiedName": "bangla_utilities_web.BanglaUtilitiesWeb.handleMethodCall",
+    "href": "bangla_utilities_web/BanglaUtilitiesWeb/handleMethodCall.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtilitiesWeb",
+      "type": "class"
+    }
+  },
+  {
+    "name": "registerWith",
+    "qualifiedName": "bangla_utilities_web.BanglaUtilitiesWeb.registerWith",
+    "href": "bangla_utilities_web/BanglaUtilitiesWeb/registerWith.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "bangla_utilities",
+    "enclosedBy": {
+      "name": "BanglaUtilitiesWeb",
+      "type": "class"
+    }
+  }
+]

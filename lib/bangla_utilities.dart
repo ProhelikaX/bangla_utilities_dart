@@ -67,7 +67,15 @@ const kTotalDaysInBanglaMonths = [
 
 const kGregEquivalentLeapYearIndexInBanglaMonths = 2;
 
+/// The main class which contains static API methods
+/// ```dart
+/// BanglaUtility.someMethod(params)
+/// ```
 class BanglaUtility {
+  /// Returns Bangla equivalent of English digit
+  /// ```dart
+  /// BanglaUtility.englishToBanglaDigit(5) == '৫'
+  /// ```
   static String englishToBanglaDigit({int englishDigit}) {
     String englishDigitStr = englishDigit.toString();
     String banglaDigit = "";
@@ -82,6 +90,10 @@ class BanglaUtility {
     return banglaDigit;
   }
 
+  /// Checks if given English year is a leap  year
+  /// ```dart
+  /// BanglaUtility.isLeapYear(2020) == true
+  /// ```
   static bool isLeapYear({int year}) {
     if (year == null) {
       DateTime now = DateTime.now();
@@ -96,6 +108,10 @@ class BanglaUtility {
     }
   }
 
+  /// Returns Bangla year for a given English date
+  /// ```dart
+  /// BanglaUtility.getBanglaYear(day:31, month:05, year: 2020) == '১৪২৭'
+  /// ```
   static String getBanglaYear({int day, int month, int year}) {
     if (day == null && month == null && year == null) {
       DateTime now = DateTime.now();
@@ -116,6 +132,10 @@ class BanglaUtility {
     return englishToBanglaDigit(englishDigit: banglaYear);
   }
 
+  /// Returns Bangla weekday for a given English date
+  /// ```dart
+  /// BanglaUtility.getBanglaWeekday(day:31, month:05, year: 2020) == 'রবিবার'
+  /// ```
   static String getBanglaWeekday({int day, int month, int year}) {
     if (day == null && month == null && year == null) {
       DateTime now = DateTime.now();
@@ -129,6 +149,17 @@ class BanglaUtility {
     return banglaWeekday;
   }
 
+  /// Returns map of Bangla weekday, day, month, month name, year, season for a given English date
+  /// ```dart
+  /// BanglaUtility.getBanglaDateMonthYearSeason(day:31, month:05, year: 2020) == {
+  ///       "weekday": 'রবিবার',
+  ///       "day": '১৭',
+  ///       "month": '৫',
+  ///       "monthName": 'জ্যৈষ্ঠ',
+  ///       "year": '১৪২৭',
+  ///       "season": 'গ্রীষ্ম'
+  ///     }
+  /// ```
   static Map<String, String> getBanglaDateMonthYearSeason(
       {int day, int month, int year}) {
     int banglaDay;
@@ -177,29 +208,49 @@ class BanglaUtility {
     return banglaDateMonthYearSeason;
   }
 
+  /// Returns Bangla day for a given English date
+  /// ```dart
+  /// BanglaUtility.getBanglaDay(day:31, month:05, year: 2020) == '১৭'
+  /// ```
   static String getBanglaDay({int day, int month, int year}) {
     return getBanglaDateMonthYearSeason(
         day: day, month: month, year: year)['day'];
   }
 
+  /// Returns Bangla month for a given English date
+  /// ```dart
+  /// BanglaUtility.getBanglaMonth(day:31, month:05, year: 2020) == '৫'
+  /// ```
   static String getBanglaMonth({int day, int month, int year}) {
     return getBanglaDateMonthYearSeason(
         day: day, month: month, year: year)['month'];
   }
 
+  /// Returns Bangla month name for a given English date
+  /// ```dart
+  /// BanglaUtility.getBanglaMonthName(day:31, month:05, year: 2020) == 'জ্যৈষ্ঠ'
+  /// ```
   static String getBanglaMonthName({int day, int month, int year}) {
     return getBanglaDateMonthYearSeason(
         day: day, month: month, year: year)['monthName'];
   }
 
+  /// Returns Bangla season for a given English date
+  /// ```dart
+  /// BanglaUtility.getBanglaSeason(day:31, month:05, year: 2020) == 'গ্রীষ্ম'
+  /// ```
   static String getBanglaSeason({int day, int month, int year}) {
     return getBanglaDateMonthYearSeason(
         day: day, month: month, year: year)['season'];
   }
 
+  /// Returns Bangla date for a given English date
+  /// ```dart
+  /// BanglaUtility.getBanglaDate(day:31, month:05, year: 2020) == '১৭-৫-১৪২৭'
+  /// ```
   static String getBanglaDate({int day, int month, int year}) {
     var bangla =
-        getBanglaDateMonthYearSeason(day: day, month: month, year: year);
+    getBanglaDateMonthYearSeason(day: day, month: month, year: year);
 
     return '${bangla['day']}-${bangla['month']}-${bangla['year']}';
   }

@@ -174,7 +174,7 @@ function initSearch(name) {
     }
 
     return sortedMatches;
-  }
+  };
 
   function initTypeahead() {
     var search = new URI().query(true)["search"];

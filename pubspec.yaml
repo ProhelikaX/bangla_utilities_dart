@@ -1,14 +1,16 @@
 name: bangla_utilities
 description: Plugin for English to Bangla date-time and number conversion.
-version: 0.1.1
+version: 0.2.1
 homepage: https://prohelika.org
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.10.0"
+  flutter: ">=1.20.0 <2.0.0"
 
 dependencies:
   flutter:
+    sdk: flutter
+  flutter_web_plugins:
     sdk: flutter
 
 dev_dependencies:
@@ -33,6 +35,13 @@ flutter:
         pluginClass: BanglaUtilitiesPlugin
       linux:
         pluginClass: BanglaUtilitiesPlugin
+      macos:
+        pluginClass: BanglaUtilitiesPlugin
+      windows:
+        pluginClass: BanglaUtilitiesPlugin
+      web:
+        pluginClass: BanglaUtilitiesWeb
+        fileName: bangla_utilities_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
