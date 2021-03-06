@@ -4,7 +4,6 @@ import 'package:bangla_utilities/bangla_utilities.dart';
 
 void main() {
   test('adds one to input values', () {
-    expect(BanglaUtility.englishToBanglaDigit(), 'null');
     expect(BanglaUtility.englishToBanglaDigit(englishDigit: 1), '১');
     expect(BanglaUtility.isLeapYear(year: 2020), true);
     expect(BanglaUtility.isLeapYear(year: 2010), false);

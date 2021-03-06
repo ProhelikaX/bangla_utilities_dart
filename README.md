@@ -5,13 +5,6 @@ All APIs are provided as static-method of the BanglaUtility class.
 
 ![Example](https://raw.githubusercontent.com/ProhelikaX/bangla_utilities_dart/master/media/example.png)
 
-
-[Github](https://github.com/ProhelikaX/bangla_utilities_dart) 
-
-[Prohelika](https://prohelika.com)
-
-
-
 ## Getting Started
 
 * Install by adding the package to your pubspec.yaml under dependency.

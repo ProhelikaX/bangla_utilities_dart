@@ -1,3 +1,7 @@
+## 1.0.0
+
+* Migrated to sound null safety
+
 ## 0.2.1
 
 * Added API documentation

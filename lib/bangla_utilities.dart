@@ -76,7 +76,7 @@ class BanglaUtility {
   /// ```dart
   /// BanglaUtility.englishToBanglaDigit(5) == '৫'
   /// ```
-  static String englishToBanglaDigit({int englishDigit}) {
+  static String englishToBanglaDigit({required int englishDigit}) {
     String englishDigitStr = englishDigit.toString();
     String banglaDigit = "";
     for (int i = 0; i < englishDigitStr.length; i++) {
@@ -94,7 +94,7 @@ class BanglaUtility {
   /// ```dart
   /// BanglaUtility.isLeapYear(2020) == true
   /// ```
-  static bool isLeapYear({int year}) {
+  static bool isLeapYear({int? year}) {
     if (year == null) {
       DateTime now = DateTime.now();
       year = now.year;
@@ -112,7 +112,7 @@ class BanglaUtility {
   /// ```dart
   /// BanglaUtility.getBanglaYear(day:31, month:05, year: 2020) == '১৪২৭'
   /// ```
-  static String getBanglaYear({int day, int month, int year}) {
+  static String getBanglaYear({int? day, int? month, int? year}) {
     if (day == null && month == null && year == null) {
       DateTime now = DateTime.now();
 
@@ -122,12 +122,12 @@ class BanglaUtility {
     }
 
     int banglaYear;
-    if (month > 3) {
-      banglaYear = year - 593;
-    } else if (month == 3 && day > 13) {
-      banglaYear = year - 593;
+    if (month! > 3) {
+      banglaYear = year! - 593;
+    } else if (month == 3 && day! > 13) {
+      banglaYear = year! - 593;
     } else {
-      banglaYear = year - 594;
+      banglaYear = year! - 594;
     }
     return englishToBanglaDigit(englishDigit: banglaYear);
   }
@@ -136,7 +136,7 @@ class BanglaUtility {
   /// ```dart
   /// BanglaUtility.getBanglaWeekday(day:31, month:05, year: 2020) == 'রবিবার'
   /// ```
-  static String getBanglaWeekday({int day, int month, int year}) {
+  static String getBanglaWeekday({int? day, int? month, int? year}) {
     if (day == null && month == null && year == null) {
       DateTime now = DateTime.now();
 
@@ -144,7 +144,7 @@ class BanglaUtility {
       month = now.month;
       year = now.year;
     }
-    DateTime date = DateTime(year, month, day);
+    DateTime date = DateTime(year!, month!, day!);
     String banglaWeekday = kBanglaWeekdays[date.weekday - 1];
     return banglaWeekday;
   }
@@ -161,7 +161,7 @@ class BanglaUtility {
   ///     }
   /// ```
   static Map<String, String> getBanglaDateMonthYearSeason(
-      {int day, int month, int year}) {
+      {int? day, int? month, int? year}) {
     int banglaDay;
     int banglaMonth;
     String banglaMonthName;
@@ -174,10 +174,10 @@ class BanglaUtility {
       day = now.day;
     }
     String banglaWeekday = getBanglaWeekday(day: day, month: month, year: year);
-    month = month - 1;
+    month = month! - 1;
     banglaYear = getBanglaYear(day: day, month: month, year: year);
 
-    if (day <= kGregEquivalentLastDayOfBanglaMonths[month]) {
+    if (day! <= kGregEquivalentLastDayOfBanglaMonths[month]) {
       int totalDaysInCurrentBanglaMonth = kTotalDaysInBanglaMonths[month];
       if (month == kGregEquivalentLeapYearIndexInBanglaMonths &&
           isLeapYear(year: year)) {
@@ -212,7 +212,7 @@ class BanglaUtility {
   /// ```dart
   /// BanglaUtility.getBanglaDay(day:31, month:05, year: 2020) == '১৭'
   /// ```
-  static String getBanglaDay({int day, int month, int year}) {
+  static String? getBanglaDay({int? day, int? month, int? year}) {
     return getBanglaDateMonthYearSeason(
         day: day, month: month, year: year)['day'];
   }
@@ -221,7 +221,7 @@ class BanglaUtility {
   /// ```dart
   /// BanglaUtility.getBanglaMonth(day:31, month:05, year: 2020) == '৫'
   /// ```
-  static String getBanglaMonth({int day, int month, int year}) {
+  static String? getBanglaMonth({int? day, int? month, int? year}) {
     return getBanglaDateMonthYearSeason(
         day: day, month: month, year: year)['month'];
   }
@@ -230,7 +230,7 @@ class BanglaUtility {
   /// ```dart
   /// BanglaUtility.getBanglaMonthName(day:31, month:05, year: 2020) == 'জ্যৈষ্ঠ'
   /// ```
-  static String getBanglaMonthName({int day, int month, int year}) {
+  static String? getBanglaMonthName({int? day, int? month, int? year}) {
     return getBanglaDateMonthYearSeason(
         day: day, month: month, year: year)['monthName'];
   }
@@ -239,7 +239,7 @@ class BanglaUtility {
   /// ```dart
   /// BanglaUtility.getBanglaSeason(day:31, month:05, year: 2020) == 'গ্রীষ্ম'
   /// ```
-  static String getBanglaSeason({int day, int month, int year}) {
+  static String? getBanglaSeason({int? day, int? month, int? year}) {
     return getBanglaDateMonthYearSeason(
         day: day, month: month, year: year)['season'];
   }
@@ -248,7 +248,7 @@ class BanglaUtility {
   /// ```dart
   /// BanglaUtility.getBanglaDate(day:31, month:05, year: 2020) == '১৭-৫-১৪২৭'
   /// ```
-  static String getBanglaDate({int day, int month, int year}) {
+  static String getBanglaDate({int? day, int? month, int? year}) {
     var bangla =
     getBanglaDateMonthYearSeason(day: day, month: month, year: year);
 
